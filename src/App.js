@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header name='Trevor Rezac' className="App-header"></Header>
       <Main animals={ animals }></Main>
-      <Footer name='Trevor' email='trev.rezac@gmail.com'></Footer>
+      <Footer name='Trevor Rezac' email='trev.rezac@gmail.com'></Footer>
     </div>
   );
 }
