@@ -4,8 +4,8 @@ import backgroundImg from './background.png';
 import Animals from '../Animals/Animals.js';
 // import { animals } from '../../animalList';
 
-export default function Main(props) {
-  const animalArr = props.animals;
+export default function Main({ animals }) {
+  const animalArr = animals;
 
 
   return (
