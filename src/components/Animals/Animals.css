@@ -10,6 +10,11 @@
     color: var(--color4);
 }
 
+.animal-container img {
+    width: 100px;
+    height: 100px;
+}
+
 .animal-name {
     text-transform: uppercase;
     font-weight: bold;

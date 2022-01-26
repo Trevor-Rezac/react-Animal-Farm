@@ -11,7 +11,7 @@ export default function Main(props) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
 
-      {animalArr.map((animal, i) => <Animals key={animal.name + i} name={animal.name} says={animal.says}></Animals>)}
+      {animalArr.map((animal, i) => <Animals key={animal.name + i} name={animal.name} says={animal.says} type={animal.type}></Animals>)}
     </main>
   );
 }

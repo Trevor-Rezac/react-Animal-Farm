@@ -7,6 +7,7 @@ export default function Animals(props) {
     <div className='animal-container'>
       <p className='animal-name'>{props.name}</p>
       <p className='animal-saying'>{props.says}</p>
+      <img src={`/images/${props.type}.svg`}></img>
     </div>);
 }
 
